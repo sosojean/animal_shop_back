@@ -77,23 +77,58 @@
 
 ```agda
 Front End (React)
-
-├─assets //스타일링 요소
-│  ├─fonts // 폰트
-│  ├─img // 이미지
-│  └─styles // scss 파일
-│      ├─board
-│      ├─comment
-│      └─layout
-│
-├─components // 모듈 컴포넌트
-│  ├─board //게시판 관련
-│  ├─comment //댓글 관련
-│  └─layout //화면 레이아웃 관련
-│
-├─pages // 페이지 컴포넌트
-│
-└─utils // 커스텀훅, 전역 함수
+.
+├── App.jsx
+├── App.test.js
+├── index.css
+├── index.jsx
+├── assets
+│   ├── fonts
+│   ├── img
+│   └── styles
+├── components
+│   ├── additional
+│   │   ├── adopt
+│   │   ├── calc
+│   │   └── wiki
+│   ├── board
+│   ├── chatting
+│   ├── comment
+│   ├── common
+│   ├── layout
+│   ├── map
+│   ├── member
+│   │   ├── myPage
+│   │   │   └── items
+│   │   ├── password
+│   │   └── pet
+│   │       └── register
+│   └── shop
+│       ├── admin
+│       │   └── notice
+│       ├── order
+│       │   ├── delivery
+│       ├── product
+│       │   ├── QnA
+│       │   ├── detail
+│       │   ├── option
+│       │   └── review
+│       └── seller
+│           ├── itemList
+│           ├── itemRegister
+│           └── sellerQna
+├── pages
+│   ├── additional
+│   ├── board
+│   ├── chatting
+│   ├── map
+│   ├── member
+│   └── shop
+│       ├── admin
+│       ├── order
+│       ├── product
+│       └── seller
+└── utils
 
 ----------------------------------------------------------------------------------------
 
